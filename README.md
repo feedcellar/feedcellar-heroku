@@ -7,10 +7,17 @@ A sample of [Feedcellar][] with [feedcellar-web][] on Heroku. [Feedcellar][] is 
 [Groonga]:http://groonga.org/
 [Rroonga]:http://ranguba.org/#about-rroonga
 
-## Deploy
+## Prepare
 
 % git clone https://github.com/feedcellar/feedcellar-heroku.git
 % cd feedcellar-heroku
+
+## Register feed URLs
+
+    % editor resources.yaml
+
+## Deploy
+
 % heroku apps:create --buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/groonga/rroonga.tgz
 % git push heroku master
 % heroku apps:open
