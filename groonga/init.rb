@@ -1,7 +1,7 @@
 require "feedcellar"
 
-base_dir = ENV["GROONGA_DATABASE_PATH"] || "groonga/database"
-ENV["FEEDCELLAR_HOME"] ||= File.join(base_dir, ".feedcellar")
+base_dir = File.join(File.dirname(__FILE__), "database")
+ENV["FEEDCELLAR_HOME"] = File.join(base_dir, ".feedcellar")
 
 command = Feedcellar::Command.new
 
