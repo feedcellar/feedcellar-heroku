@@ -9,8 +9,8 @@ A sample of [Feedcellar][] with [feedcellar-web][] on Heroku. [Feedcellar][] is 
 
 ## Prepare
 
-% git clone https://github.com/feedcellar/feedcellar-heroku.git
-% cd feedcellar-heroku
+    % git clone https://github.com/feedcellar/feedcellar-heroku.git
+    % cd feedcellar-heroku
 
 ## Register feed URLs
 
@@ -18,9 +18,9 @@ A sample of [Feedcellar][] with [feedcellar-web][] on Heroku. [Feedcellar][] is 
 
 ## Deploy
 
-% heroku apps:create --buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/groonga/rroonga.tgz
-% git push heroku master
-% heroku apps:open
+    % heroku apps:create --buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/groonga/rroonga.tgz
+    % git push heroku master
+    % heroku apps:open
 
 ## License
 
