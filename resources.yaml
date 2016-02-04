@@ -29,10 +29,9 @@
 - http://www.oiax.jp/index.rss
 - http://www.ruby-lang.org/ja/feeds/news.rss
 - http://www.rubyist.net/~matz/index.rdf
-- http://www.tdd-net.jp/index.rdf
-- https://blog.mozilla.org/addons/feed/
-- https://blog.mozilla.org/feed/
-- https://blog.mozilla.org/futurereleases/feed/
-- https://blog.mozilla.org/security/feed/
-- https://hacks.mozilla.org/feed/
+#- https://blog.mozilla.org/addons/feed/
+#- https://blog.mozilla.org/feed/
+#- https://blog.mozilla.org/futurereleases/feed/
+#- https://blog.mozilla.org/security/feed/
+#- https://hacks.mozilla.org/feed/
 - https://www.mozilla.jp/blog/feed/
