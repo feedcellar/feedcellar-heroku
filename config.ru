@@ -1,5 +1,5 @@
-base_dir = File.join(File.dirname(__FILE__), "groonga", "database", ".feedcellar")
-FileUtils.mkdir_p(base_dir)
+base_dir = File.join(File.dirname(__FILE__), ".feedcellar")
+
 ENV["FEEDCELLAR_HOME"] = base_dir
 
 require "feedcellar/web"

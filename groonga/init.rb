@@ -1,7 +1,7 @@
 require "feedcellar"
 
-base_dir = File.join(File.dirname(__FILE__), "database", ".feedcellar")
-FileUtils.mkdir_p(base_dir)
+base_dir = File.join(File.dirname(__FILE__), "..", ".feedcellar")
+
 ENV["FEEDCELLAR_HOME"] = base_dir
 
 command = Feedcellar::Command.new
