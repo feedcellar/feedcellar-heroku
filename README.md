@@ -1,9 +1,11 @@
 # feedcellar-heroku
 
-A sample of [Feedcellar][] with [feedcellar-web][] on Heroku. [Feedcellar][] is a full-text searchable RSS feed reader and data store. [feedcellar-web][] is a web interface for [Feedcellar][].
+A sample of [Feedcellar][] with [feedcellar-web][] on Heroku. [Feedcellar][] is a full-text searchable RSS feed reader and data store that is powered by [Groonga][] with [Rroonga][]. [feedcellar-web][] is a web interface for [Feedcellar][].
 
 [Feedcellar]:http://myokoym.net/feedcellar/
 [feedcellar-web]:https://github.com/feedcellar/feedcellar-web
+[Groonga]:http://groonga.org/
+[Rroonga]:http://ranguba.org/#about-rroonga
 
 ## Deploy
 
