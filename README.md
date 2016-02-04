@@ -22,6 +22,10 @@ A sample of [Feedcellar][] with [feedcellar-web][] on Heroku. [Feedcellar][] is 
     $ git push heroku master
     $ heroku apps:open
 
+## Notice
+
+Take care of [R10 - Boot timeout](https://devcenter.heroku.com/articles/error-codes#r10-boot-timeout) error. This error occurs when such as resources are too many.
+
 ## License
 
 CC0 1.0 Universal (Public Domain)
