@@ -3,13 +3,12 @@ require "yaml"
 require "feedcellar"
 
 resources = YAML.load_file("resources.yaml")
+puts "Resources: #{resources}"
 
 command = Feedcellar::Command.new
 
-resources.each do |resource|
-  puts "Registering #{resource}"
-  command.register(resource)
-end
+puts "Registering..."
+command.register(*resources)
 
 puts "Collecting..."
 command.collect
